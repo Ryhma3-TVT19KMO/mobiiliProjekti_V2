@@ -10,6 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import fi.example.proto.mobiiliproject.R;
+
 import static fi.example.proto.mobiiliproject.R.id.text_kirjaudu;
 import static fi.example.proto.mobiiliproject.R.layout.fragment_kirjaudu;
 
@@ -20,7 +22,7 @@ public class KirjauduFragment extends Fragment {
         KirjauduViewModel signInViewModel = new ViewModelProvider(this).get(KirjauduViewModel.class);
         View root = inflater.inflate(fragment_kirjaudu, container, false);
         final TextView textView = root.findViewById(text_kirjaudu);
-        signInViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        //signInViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 }

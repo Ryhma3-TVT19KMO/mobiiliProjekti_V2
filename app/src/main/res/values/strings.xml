@@ -13,4 +13,7 @@
     <string name="Kartta">Kartta</string>
     <string name="menu_kirjaudu" />
     <string name="Kirjaudu">Kirjaudu</string>
+    <string name="username">Käyttäjätunnus</string>
+    <string name="password">Salasana</string>
+    <string name="new_user">Uusi käyttäjä? Rekisteröidy tästä</string>
 </resources>

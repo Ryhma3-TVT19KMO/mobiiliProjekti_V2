@@ -13,7 +13,8 @@ public class KirjauduViewModel extends ViewModel {
         mText.setValue("Kirjaudu");
     }
 
-    public LiveData<String> getText() {
-        return mText;
-    }
+    //public LiveData<String> getText() {
+        //return mText;
+    //}
+
 }
